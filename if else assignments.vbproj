@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{AA671D3C-EE0F-44BB-B0C8-46BF3D6FEFD1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>if_else_assignments.Module1</StartupObject>
+    <StartupObject>if_else_assignments.ex4</StartupObject>
     <RootNamespace>if_else_assignments</RootNamespace>
     <AssemblyName>if else assignments</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,6 +69,8 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ex3.vb" />
+    <Compile Include="ex4.vb" />
     <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
